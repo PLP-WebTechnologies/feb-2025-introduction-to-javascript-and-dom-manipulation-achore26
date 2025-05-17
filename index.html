@@ -16,6 +16,7 @@
     }
     button {
       margin-top: 10px;
+      margin-right: 10px;
     }
   </style>
 </head>
@@ -26,10 +27,10 @@
 
   <section>
     <p id="info-text">Click the buttons below to interact with the DOM.</p>
-    <button onclick="changeText()">Change Text</button>
-    <button onclick="toggleHighlight()">Toggle Highlight</button>
-    <button onclick="addElement()">Add Element</button>
-    <button onclick="removeElement()">Remove Last Element</button>
+    <button id="changeTextBtn">Change Text</button>
+    <button id="toggleHighlightBtn">Toggle Highlight</button>
+    <button id="addElementBtn">Add Element</button>
+    <button id="removeElementBtn">Remove Last Element</button>
   </section>
 
   <article id="dynamic-content">
