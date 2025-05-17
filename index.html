@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to JavaScript DOM Manipulation</h1>
+  </header>
+
+  <section>
+    <p id="info-text">Click the buttons below to interact with the DOM.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Last Element</button>
+  </section>
+
+  <article id="dynamic-content">
+    <h2>Dynamic Content Area</h2>
+    <ul id="item-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </article>
+
+  <footer>
+    <p>&copy; 2025 JavaScript Practice Page</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
